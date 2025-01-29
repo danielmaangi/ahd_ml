@@ -75,12 +75,6 @@ python scripts/predict.py --input data/sample_input.csv
 - [upyter Notebook ](https://github.com/microsoft/FLAML) - for exploratory data analysis
 - [Flask/FastAPI](https://flask.palletsprojects.com/en/stable/) - for deploying the model as an API
 
-## Integrations with 3rd party software
-Open source integrations with XGBoost:
-* [Neptune.ai](http://neptune.ai/) - Experiment management and collaboration tool for ML/DL/RL specialists. Integration has a form of the [XGBoost callback](https://docs.neptune.ai/integrations/xgboost.html) that automatically logs training and evaluation metrics, as well as saved model (booster), feature importance chart and visualized trees.
-* [Optuna](https://optuna.org/) - An open source hyperparameter optimization framework to automate hyperparameter search. Optuna integrates with XGBoost in the [XGBoostPruningCallback](https://optuna.readthedocs.io/en/stable/reference/integration.html#optuna.integration.XGBoostPruningCallback) that let users easily prune unpromising trials.
-* [dtreeviz](https://github.com/parrt/dtreeviz) - A python library for decision tree visualization and model interpretation. Starting from version 1.0, dtreeviz is able to visualize tree ensembles produced by XGBoost.
-
 ## Contributors
 - [Daniel Maangi](https://github.com/danielmaangi) 
 - [Jacques Muthusi](https://github.com/kmuthusi) 
